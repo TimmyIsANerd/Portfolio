@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus, CgWebsite } from "react-icons/cg";
+import { CgWebsite } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -11,7 +11,7 @@ import {
   DiGithub,
   DiWordpress,
 } from "react-icons/di";
-import { SiEthereum, SiStrapi, SiSvelte, SiTailwindcss } from "react-icons/si";
+import { SiEthereum, SiNextDotJs, SiStrapi, SiSvelte, SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -54,6 +54,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextDotJs />
       </Col>
     </Row>
   );
