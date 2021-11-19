@@ -7,7 +7,8 @@ import {
   SiPostman,
   SiHeroku,
   SiLinode,
-  SiAmazonaws
+  SiAmazonaws,
+  SiReplDotIt
 } from "react-icons/si";
 
 function Toolstack() {
@@ -33,6 +34,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReplDotIt />
       </Col>
     </Row>
   );

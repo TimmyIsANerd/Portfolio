@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am proficient at coding with
               <i>
-                <b className="purple"> Javascript Frameworks, Serverless Technologies and Solidity.</b>
+                <b className="purple"> Javascript Frameworks, Serverless & Blockchain Technology.</b>
               </i>
               <br />
               <br />
