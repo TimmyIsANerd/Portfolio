@@ -9,7 +9,7 @@ function Type() {
           "BlockChain Developer",
           "Web Designer",
           "MERN Stack Developer",
-          "Open Source Contributor",
+          "Coding Tutor",
         ],
         autoStart: true,
         loop: true,
