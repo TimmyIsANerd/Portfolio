@@ -8,7 +8,6 @@ import fet from "../../Assets/Projects/Portfolio/fet/fet.com.ng.png";
 import tmh from "../../Assets/Projects/Portfolio/The Moon House/the_moon_house_pc.png";
 import rhb from "../../Assets/Projects/Portfolio/Reboboth/rehoboth_pc.png";
 import everys from "../../Assets/Projects/Portfolio/Everys/everys_pc.png";
-import fivenet from "../../Assets/Projects/Portfolio/5net/5net.png";
 import ehub from "../../Assets/Projects/Portfolio/Excelhence Hub/excelhence.png";
 import myjobselfie from "../../Assets/Projects/Portfolio/MyJobSelfie/index.html.png";
 import provest from "../../Assets/Projects/Portfolio/Provest/provest_lg.png";
@@ -20,12 +19,12 @@ import rariblenft from '../../Assets/Projects/rariblenft.png';
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.jpeg";
+// import editor from "../../Assets/Projects/codeEditor.png";
 // import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
