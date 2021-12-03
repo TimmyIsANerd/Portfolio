@@ -71,7 +71,7 @@ function Projects() {
               description="
               NFT Minter Project of Mine, randomly generates an NFT with random unique text characters and deploys it to OpenSea.io, I wrote the smart contract to only permit a total of 50 NFTs to be generated in total
               "
-              link="https://rariblenftminter.netlify.app/"
+              link="https://nftfightresult.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
