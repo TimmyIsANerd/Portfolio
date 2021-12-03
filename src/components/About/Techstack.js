@@ -11,7 +11,7 @@ import {
   DiGithub,
   DiWordpress,
 } from "react-icons/di";
-import { SiEthereum, SiNextDotJs, SiRust, SiStrapi, SiSvelte, SiTailwindcss } from "react-icons/si";
+import { SiEthereum, SiStrapi, SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
   return (
