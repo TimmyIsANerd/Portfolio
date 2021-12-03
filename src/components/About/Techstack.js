@@ -43,9 +43,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiSvelte />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiStrapi />
       </Col>
@@ -55,12 +55,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextDotJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRust />
-      </Col>
+      </Col> */}
     </Row>
   );
 }
