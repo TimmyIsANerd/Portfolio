@@ -15,7 +15,7 @@ import nomsycares from "../../Assets/Projects/Portfolio/NomsyCares/index.html.pn
 
 // Web3 Projects
 import bsctoken from "../../Assets/Projects/bsctoken_project.png";
-import rariblenft from '../../Assets/Projects/rariblenft.png';
+import stephnft from '../../Assets/Projects/stephnft.png';
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 
@@ -54,11 +54,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rariblenft}
+              imgPath={stephnft}
               isBlog={false}
-              title="Rarible NFT Minter (Test Net)"
+              title="Steph NFT Minting Platform (Test Net)"
               description="
-              NFT Minter Application Built and Hosted to Mint NFTs using Rarible Plugin and Moralis Js instantly publish to Rarable NFT Market Place.
+              NFT Minter Application Built and Hosted to Mint NFTs using Rarible Plugin and Moralis Js, NFTs are instantly published to Rarable NFT Market Place.
               "
               link="https://rariblenftminter.netlify.app/"
             />
