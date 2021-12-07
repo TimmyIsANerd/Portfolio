@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Steph NFT Minting Platform (Test Net)"
               description="
-              NFT Minter Application Built and Hosted to Mint NFTs using Rarible Plugin and Moralis Js, NFTs are instantly published to Rarable NFT Market Place.
+              NFT Minter Application Built and Hosted to Mint NFTs using Rarible Plugin and Moralis Js, NFTs are instantly published to Rarable NFT Market Place with Zero Gas Fees.
               "
               link="https://rariblenftminter.netlify.app/"
             />
