@@ -18,6 +18,7 @@ import bsctoken from "../../Assets/Projects/bsctoken_project.png";
 import stephnft from '../../Assets/Projects/stephnft.png';
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
+import solananft from "../../Assets/Projects/solanaproject.png";
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
@@ -50,6 +51,18 @@ function Projects() {
               0x48e2c7f28c652ed33ac04f41e8c7b1d0cc61f352
               "
               link="https://gist.github.com/TimmyIsANerd/72104e60d8f4c77a8ac891c925f5a554"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={solananft}
+              isBlog={false}
+              title="Medieval NFT Solana Drop Project"
+              description="
+              Minted an NFT Collection on the Solana Blockchain using Solana & Metaplex Candy Machine,
+              All NFTs are locked and Unmintable until December 29th, 2021.
+              "
+              link="https://solananftdapp.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
