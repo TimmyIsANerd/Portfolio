@@ -12,10 +12,11 @@ import ehub from "../../Assets/Projects/Portfolio/Excelhence Hub/excelhence.png"
 import myjobselfie from "../../Assets/Projects/Portfolio/MyJobSelfie/index.html.png";
 import provest from "../../Assets/Projects/Portfolio/Provest/provest_lg.png";
 import nomsycares from "../../Assets/Projects/Portfolio/NomsyCares/index.html.png";
+import audiobaze from "../../Assets/Projects/Portfolio/audiobaze.png";
 
 // Web3 Projects
 import bsctoken from "../../Assets/Projects/bsctoken_project.png";
-import stephnft from '../../Assets/Projects/stephnft.png';
+import stephnft from "../../Assets/Projects/stephnft.png";
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 import solananft from "../../Assets/Projects/solanaproject.png";
@@ -110,6 +111,16 @@ function Projects() {
           </a>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={audiobaze}
+              isBlog={false}
+              title="Audiobaze Dashboard"
+              description="Audiobaze is a platform that provides Stream Boosting, Via Spotify/YouTube Bots and could provide as much as 500k streams on your spotify account, this dashboard was built as user management system which runs on an API that the Bots communicate with, via this platform, your license is verified so you can use the spotify bot services to boost your stream."
+              link="https://audiobaze.herokuapp.com"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={enroute}
