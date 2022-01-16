@@ -8,8 +8,9 @@ import {
   SiHeroku,
   SiLinode,
   SiAmazonaws,
-  SiReplDotIt
+  SiReplDotIt,
 } from "react-icons/si";
+import {DiTerminal} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -37,6 +38,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReplDotIt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiTerminal />
       </Col>
     </Row>
   );

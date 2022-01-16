@@ -10,6 +10,7 @@ import {
   DiBootstrap,
   DiGithub,
   DiWordpress,
+  DiRedis
 } from "react-icons/di";
 import { SiEthereum, SiStrapi, SiTailwindcss } from "react-icons/si";
 
@@ -54,6 +55,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiRedis />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextDotJs />
