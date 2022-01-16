@@ -12,7 +12,7 @@ import ehub from "../../Assets/Projects/Portfolio/Excelhence Hub/excelhence.png"
 import myjobselfie from "../../Assets/Projects/Portfolio/MyJobSelfie/index.html.png";
 import provest from "../../Assets/Projects/Portfolio/Provest/provest_lg.png";
 import nomsycares from "../../Assets/Projects/Portfolio/NomsyCares/index.html.png";
-import audiobaze from "../../Assets/Projects/Portfolio/audiobaze.png";
+import audiobaze from "../../Assets/Projects/audiobaze.png";
 
 // Web3 Projects
 import bsctoken from "../../Assets/Projects/bsctoken_project.png";
