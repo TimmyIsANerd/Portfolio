@@ -12,13 +12,16 @@ import {
   DiWordpress,
   DiRedis,
 } from "react-icons/di";
-import { SiEthereum, SiStrapi, SiTailwindcss, SiVueDotJs } from "react-icons/si";
+import { SiEthereum, SiStrapi, SiTailwindcss, SiVueDotJs,SiTypescript } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgWebsite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
