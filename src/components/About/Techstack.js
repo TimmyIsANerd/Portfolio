@@ -12,7 +12,7 @@ import {
   DiWordpress,
   DiRedis,
 } from "react-icons/di";
-import { SiEthereum, SiStrapi, SiTailwindcss, SiVueDotJs,SiTypescript } from "react-icons/si";
+import { SiEthereum, SiStrapi, SiTailwindcss, SiVueDotJs,SiTypescript, SiJsonwebtokens, SiRedux } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -46,6 +46,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJsonwebtokens />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiSvelte />
