@@ -34,6 +34,14 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
+          <strong className="purple">Currently</strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <h2 className="text-white">Full Stack Blockchain Developer @<a href="https://vefinetwork.org/" className="purple">VeFi</a> </h2>
+          </Col>
+        </Row>
+        <h1 className="project-heading">
           My Recent{" "}
           <strong className="purple">Web3 (Blockchain) Projects </strong>
         </h1>
