@@ -20,6 +20,7 @@ import stephnft from "../../Assets/Projects/stephnft.png";
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 import solananft from "../../Assets/Projects/solanaproject.png";
+import hexnews from "../../Assets/Projects/hexnews.PNG"
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
@@ -108,6 +109,27 @@ function Projects() {
             />
           </Col>
         </Row>
+
+        <h2 className="project-heading">
+          TypeScript<strong className="purple"> Projects </strong>
+        </h2>
+
+        <p style={{ color: "white" }}>
+          Projects I played around with <br />
+        </p>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }} >
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hexnews}
+              isBlog={false}
+              title="Hex News App"
+              description="News Search Application made with TypeScript + Next Js and Web Search API, You can input queries to find any kind of News on the Web."
+              link="https://timmy-nextjs-news.vercel.app/"
+            />
+          </Col>
+        </Row>
+
         <h2 className="project-heading">
           My Recent <strong className="purple">Web2 Projects </strong>
         </h2>
