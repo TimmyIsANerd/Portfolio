@@ -21,6 +21,7 @@ import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 import solananft from "../../Assets/Projects/solanaproject.png";
 import hexnews from "../../Assets/Projects/hexnews.PNG"
+import lyrics from "../../Assets/Projects/rapidlyrics.png"
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
@@ -124,8 +125,18 @@ function Projects() {
               imgPath={hexnews}
               isBlog={false}
               title="Hex News App"
-              description="News Search Application made with TypeScript + Next Js and Web Search API, You can input queries to find any kind of News on the Web."
+              description="News Search Application made with TypeScript + Next Js + Tailwind CSS and Web Search API, You can input queries to find any kind of News on the Web."
               link="https://timmy-nextjs-news.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lyrics}
+              isBlog={false}
+              title="Rapid Lyrics Search App"
+              description="Rapid Lyrics Search API made with TypeScript + Next Js + Tailwind CSS and Genius Lyrics API, You can use it to find lyrics to your favorite songs"
+              link="https://rapid-lyrics-search-app.vercel.app/"
             />
           </Col>
         </Row>
