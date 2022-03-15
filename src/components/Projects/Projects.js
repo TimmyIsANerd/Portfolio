@@ -13,6 +13,7 @@ import myjobselfie from "../../Assets/Projects/Portfolio/MyJobSelfie/index.html.
 import provest from "../../Assets/Projects/Portfolio/Provest/provest_lg.png";
 import nomsycares from "../../Assets/Projects/Portfolio/NomsyCares/index.html.png";
 import audiobaze from "../../Assets/Projects/audiobaze.png";
+import winifred from "../../Assets/Projects/winifred.png";
 
 // Web3 Projects
 import bsctoken from "../../Assets/Projects/bsctoken_project.png";
@@ -20,8 +21,13 @@ import stephnft from "../../Assets/Projects/stephnft.png";
 import nftfightresult from "../../Assets/Projects/nftresultminter.png";
 import waveportal from "../../Assets/Projects/waveportal.png";
 import solananft from "../../Assets/Projects/solanaproject.png";
-import hexnews from "../../Assets/Projects/hexnews.PNG"
-import lyrics from "../../Assets/Projects/rapidlyrics.png"
+import tokenVendor from "../../Assets/Projects/token vendor.png";
+import staker from "../../Assets/Projects/staking.png";
+import nft from "../../Assets/Projects/nft.png";
+
+// Typescript Projects
+import hexnews from "../../Assets/Projects/hexnews.PNG";
+import lyrics from "../../Assets/Projects/rapidlyrics.png";
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
@@ -40,7 +46,12 @@ function Projects() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <h2 className="text-white">Full Stack Blockchain Developer @<a href="https://vefinetwork.org/" className="purple">VeFi</a> </h2>
+            <h2 className="text-white">
+              Full Stack Blockchain Developer @
+              <a href="https://vefinetwork.org/" className="purple">
+                VeFi
+              </a>{" "}
+            </h2>
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -112,6 +123,44 @@ function Projects() {
         </Row>
 
         <h2 className="project-heading">
+          Ethereum<strong className="purple"> SpeedRun Projects </strong>
+        </h2>
+
+        <p style={{ color: "white" }}>
+          Working with Scaffold ETH <br />
+        </p>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tokenVendor}
+              isBlog={false}
+              title="Token Vendor DApp"
+              description="Token Vendor DApp built with Solidity, Hardhat Scaffold-ETH Boilerplate & React, compiled and deployed to Rinkeby Testnet, Login with MetaMask to Test Project"
+              link="http://deep-can.surge.sh/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={staker}
+              isBlog={false}
+              title="Decentralized Staking DApp"
+              description="Decentralized Staking DApp built with Solidity, Hardhat Scaffold-ETH Boilerplate & React, compiled and deployed to Rinkeby Testnet, Login with MetaMask to Test Project"
+              link="http://terrific-quarter.surge.sh/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nft}
+              isBlog={false}
+              title="Simple NFT Dapp Wallet"
+              description="Simple NFT DApp built with Solidity, Hardhat Scaffold-ETH Boilerplate & React, compiled and deployed to Rinkeby Testnet, Login with MetaMask to Test Project"
+              link="http://shocking-apple.surge.sh/"
+            />
+          </Col>
+        </Row>
+
+        <h2 className="project-heading">
           TypeScript<strong className="purple"> Projects </strong>
         </h2>
 
@@ -119,8 +168,8 @@ function Projects() {
           Projects I played around with <br />
         </p>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }} >
-        <Col md={4} className="project-card">
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hexnews}
               isBlog={false}
@@ -152,6 +201,15 @@ function Projects() {
           </a>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={winifred}
+              isBlog={false}
+              title="Winifred Liam's Portfolio Site"
+              description="Built with Next Js and deployed to Vercel, Winifred Liam is an avid reader, and she wears many hats most times an Indie Author of three published books on Amazon and bambooks. Ghostwriter, Virtual assistant, and IT support specialists. "
+              link="https://winifred-liam.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={audiobaze}
