@@ -14,6 +14,7 @@ import provest from "../../Assets/Projects/Portfolio/Provest/provest_lg.png";
 import nomsycares from "../../Assets/Projects/Portfolio/NomsyCares/index.html.png";
 import audiobaze from "../../Assets/Projects/audiobaze.png";
 import winifred from "../../Assets/Projects/winifred.png";
+import assetcradle from "../../Assets/Projects/assetcradle.png";
 
 // Web3 Projects
 import bsctoken from "../../Assets/Projects/bsctoken_project.png";
@@ -201,6 +202,15 @@ function Projects() {
           </a>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={assetcradle}
+              isBlog={false}
+              title="Asset Cradle"
+              description="Asset Cradle is a unique marketplace, that provides a transparent, fast and secure environment for the seamless exchange and trading of Non Fungible Tokens (NFTs) and assets eg Art, Music, Properties, etc and digital assets, leveraging on the possibilities of the Blockchain technology and Web3.0."
+              link="https://assetcradle.org"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={winifred}
