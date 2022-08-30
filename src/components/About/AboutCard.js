@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello there, I am <span className="purple">Adefeyitimi Adeyeloja </span>
+            Hello there, I am <span className="purple">Adefeyitimi Gbolahan Adeyeloja </span>
             from <span className="purple"> Nigeria.</span>
             <br />Since beginning my journey as a Web <span className="purple">Developer</span>, 
             I've done remote jobs for <span className="purple">agencies</span>, consulted for <span className="purple">startups</span>, and collaborated with the most talented people to create digital products for both business and customer use. In my free time, I write on <span className="purple">Medium</span> , I'm always looking to improve my <span className="purple">skills</span> having one tech problem solved at a time.
