@@ -66,7 +66,7 @@ function Projects() {
               imgPath={bit}
               isBlog={false}
               title="Bit Torrent Clone"
-              description="Bit Torrent Clone with Functionality"
+              description="Bit Torrent Clone with Functionality, Authentication with Metamask"
               link="https://bridge-page.vercel.app/"
             />
           </Col>
