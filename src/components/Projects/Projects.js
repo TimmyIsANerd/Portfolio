@@ -25,6 +25,7 @@ import solananft from "../../Assets/Projects/solanaproject.png";
 import tokenVendor from "../../Assets/Projects/token vendor.png";
 import staker from "../../Assets/Projects/staking.png";
 import nft from "../../Assets/Projects/nft.png";
+import bit from "../Assets/Projects/bittorrent.png";
 
 // Typescript Projects
 import hexnews from "../../Assets/Projects/hexnews.PNG";
@@ -60,6 +61,15 @@ function Projects() {
           <strong className="purple">Web3 (Blockchain) Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bsctoken}
+              isBlog={false}
+              title="Bit Torrent Clone"
+              description="Bit Torrent Clone with Functionality"
+              link="https://bridge-page.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bsctoken}
