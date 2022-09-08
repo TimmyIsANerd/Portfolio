@@ -25,7 +25,7 @@ import solananft from "../../Assets/Projects/solanaproject.png";
 import tokenVendor from "../../Assets/Projects/token vendor.png";
 import staker from "../../Assets/Projects/staking.png";
 import nft from "../../Assets/Projects/nft.png";
-import bit from "../Assets/Projects/bittorrent.png";
+import bit from "../../Assets/Projects/bittorrent.png";
 
 // Typescript Projects
 import hexnews from "../../Assets/Projects/hexnews.PNG";
@@ -63,7 +63,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bsctoken}
+              imgPath={bit}
               isBlog={false}
               title="Bit Torrent Clone"
               description="Bit Torrent Clone with Functionality"
