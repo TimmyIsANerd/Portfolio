@@ -26,6 +26,8 @@ import tokenVendor from "../../Assets/Projects/token vendor.png";
 import staker from "../../Assets/Projects/staking.png";
 import nft from "../../Assets/Projects/nft.png";
 import bit from "../../Assets/Projects/bittorrent.png";
+import isock from "../../Assets/Projects/isock.png";
+import vefi from "../../Assets/Projects/vefi.png"
 
 // Typescript Projects
 import hexnews from "../../Assets/Projects/hexnews.PNG";
@@ -61,6 +63,24 @@ function Projects() {
           <strong className="purple">Web3 (Blockchain) Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vefi}
+              isBlog={false}
+              title="VeFi Network"
+              description="VeFi Network is an ecosystem of blockchain-intrinsic products and services with the sole aim of permeating all areas of the globe with its influence in the blockchain ecosystem."
+              link="https://vefinetwork.org/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={isock}
+              isBlog={false}
+              title="iSocks NFTs"
+              description="iSocks NFT Community, Your Physical NFT Minting Solution, Full Stack Web3 Application built with Next Js"
+              link="https://isocks.ai/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bit}
